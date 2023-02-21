@@ -12,6 +12,7 @@ spec:
       labels:
         app: nginx
     spec:
+      namespace: default
       containers:
       - name: nginx
         image: nginx:1.14.2
